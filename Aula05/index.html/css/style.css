@@ -1,0 +1,59 @@
+/*Estilo para o cabeçalho Bem vindo*/
+header{
+    background-color: rgb(15, 20, 16);
+    color: #f2f5f1;
+    text-align: center;
+    padding: 1em;
+
+}
+
+/*Estilos para o corpo da página fundo geral da página*/
+
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0%;
+    background-color: #f5f7f8;
+}
+/*Estilos para o rodapé coopyrite todos os direitos reservados*/
+footer{
+    background-color: #171817;
+    text-align: center;
+    color: rgb(216, 210, 210);
+    padding: 1em;
+}
+/*Estilos para seções*/
+section{
+    background-color: rgb(250, 253, 252);
+    padding: 2em;
+     margin: 1em;
+     border-radius: 5px;
+     box-shadow: 0px 2px 4px rgb(12, 10, 10);
+    
+}
+/*Área de navegação home sobre....*/
+nav ul{
+    list-style-type: none;
+    background-color: #353630;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+
+}
+ nav ul li{
+    flex: 1;
+    text-align: center;
+
+ }
+ nav ul li a{
+    text-decoration: none;
+    padding: 1em;
+    color: #f0e7e7;
+    display: block;
+ }
+ nav ul li a:hover{
+    background-color: #24048b;
+ }
+ div{
+    text-align: center;
+ }
